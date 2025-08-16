@@ -1,11 +1,11 @@
 #!/bin/bash
 
-DIR_PATH="~/.config/clipcat"
+DIR_PATH="${HOME}/.config/clipcat"
 
 FILES=(
-    "./clipcat-menu.toml"
-    "./clipcatctl.toml"
-    "./clipcatd.toml"
+    "./src/clipcat-menu.toml"
+    "./src/clipcatctl.toml"
+    "./src/clipcatd.toml"
 )
 
 function create_dir {
